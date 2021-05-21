@@ -40,31 +40,21 @@ body {
   height: 200px;
   margin: auto;
   border-radius: 7px;
-  background-color: #9400d3;
-  animation-name: rainbowCircle;
+  animation-name: carrétruc;
   animation-duration: 12s;
   animation-iteration-count: infinite;
 }
 
-@keyframes rainbowCircle {
-  16.6% {
-    background-color: #4b0082;
+@keyframes carrétruc {
+  33% {
+    background-color: black;
   }
-  33.2% {
-    background-color: #0000ff;
-  }
-  49.8% {
-    background-color: #00ff00;
-  }
-  66.4% {
-    background-color: #ffff00;
-  }
-  83% {
-    background-color: #ff7f00;
+  66% {
+    background-color: grey;
   }
   100% {
-    background-color: #ff0000;
-  }
+    background-color: white;
+
 }
 
 /*Page my project */
