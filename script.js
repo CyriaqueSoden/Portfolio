@@ -1,4 +1,4 @@
-$(".image").click(function(){
-    $(".image").removeClasse("active");
-    $(this).addClasse("active");
+$('.image').click(function(){
+    $('.image').removeClass('active');
+    $(this).addClass('active');
 })
