@@ -40,22 +40,22 @@ body {
   height: 200px;
   margin: auto;
   border-radius: 7px;
-  animation-name: carrétruc;
+  animation-name: carré;
   animation-duration: 12s;
   animation-iteration-count: infinite;
 }
 
-@keyframes carrétruc {
+@keyframes carré {
   33% {
     background-color: black;
   }
   66% {
-    background-color: grey;
-  }
-  100% {
     background-color: white;
   }
-
+  100% {
+    background-color: grey;
+  }
+}
 
 /*Page my project */
 
