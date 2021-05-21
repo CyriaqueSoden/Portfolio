@@ -5,8 +5,8 @@
   list-style: none;
 }
 
-body {
-  background: url(background.png);
+.home {
+  background: url(./image/background.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -28,4 +28,7 @@ body {
 .nav-item:first-child {
   margin-right: auto;
   margin-left: 2rem;
+}
+.image {
+  height: 1000px;
 }
