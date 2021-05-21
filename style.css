@@ -1,15 +1,14 @@
-* {
+.home {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   list-style: none;
-}
-
-.home {
   background: url(./image/background.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  box-sizing: border-box;
+  list-style: none;
 }
 .nav-list {
   padding: 1rem 0;
@@ -29,6 +28,41 @@
   margin-right: auto;
   margin-left: 2rem;
 }
+
+/*Page my project */
+
+.my_projects {
+  overflow: hidden;
+  height: 100vh;
+  font-family: "Expletus Sans", cursive;
+}
+
+.portfolio {
+  display: flex;
+  min-width: 600px;
+  max-width: 900px;
+  height: 400px;
+  margin: 4rem auto;
+}
+
 .image {
-  height: 1000px;
+  min-width: 60px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+  overflow: hidden;
+  position: relative;
+}
+
+.image.active {
+  flex-grow: 100;
+  max-width: 600px;
+  margin: 0px;
+  border-radius: 7px;
+  background-size: auto 100%;
+}
+
+.image:not(.active) {
+  flex-grow: 1;
+  border-radius: 5px;
 }
