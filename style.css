@@ -43,6 +43,14 @@ body {
   animation-name: carré;
   animation-duration: 12s;
   animation-iteration-count: infinite;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  padding-left: 1rem;
 }
 
 @keyframes carré {
