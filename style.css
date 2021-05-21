@@ -30,6 +30,18 @@ body {
   margin-left: 2rem;
 }
 
+.box-pres {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: white;
+  box-shadow: 10px 5px 5px black;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  border-radius: 7px;
+}
+
 /*Page my project */
 
 .portfolio {
